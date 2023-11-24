@@ -1,0 +1,152 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.card p {
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.card i {
+    color: #4285F4;
+    margin-right: 8px;
+}
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.card p b {
+    margin-right: 10px; /* 在属性名和值之间添加间距 */
+}
+.popup-content p {
+    font-size: 14px;
+    color: #333;
+    margin: 4px 0;
+}
+
+.details-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block; /* 让按钮宽度充满整个Popup */
+}
+
+/* style.css */
+/* ... 其他样式不变 ... */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+/* style.css */
+/* ... 其他样式不变 ... */
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 80%; /* 修改卡片的宽度 */
+    max-width: 1200px; /* 可以设置最大宽度以防卡片过宽 */
+    text-align: center;
+}
+
+
+.toggle-section {
+    cursor: pointer;
+    color: #4285F4;
+    margin-bottom: 5px;
+}
+
+.collapsed {
+    display: none;
+}
+.stats-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap; /* 允许内容换行 */
+}
+
+.stats-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    min-width: 180px; /* 设置最小宽度 */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .stats-item {
+        min-width: 140px; /* 对于较小屏幕，减小最小宽度 */
+    }
+}
