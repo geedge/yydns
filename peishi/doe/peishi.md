@@ -1,6 +1,6 @@
 |dnsdist    |    DNS负载均衡器和流量管理器    |1.6.1|用于搭建加密DNS服务器  
 sudo apt install dnsdist=1.6.1    
-|bind9	|DNS服务器	|9.19.16-1+ubuntu22.04.1+isc+1-Ubuntu	|用于搭建加密DNS服务器 
+|bind9	|DNS服务器	|9.19.16-1+ubuntu22.04.1+isc+1-Ubuntu	|用于搭建加密DNS服务器   
 sudo apt install bind=9.19.16-1+ubuntu22.04.1+isc+1-Ubuntu  
 |Chrome浏览器	|网络浏览器	|118.0.5993.118	|验证中间人攻击效果  
 
