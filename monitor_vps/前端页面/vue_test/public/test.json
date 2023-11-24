@@ -1,0 +1,43 @@
+{
+    "data": {"tt":[
+      {
+        
+      },
+      {
+        "nodeId": "2",
+        "name": "节点2",
+        "address": "上海市普陀区金沙江路 1518",
+        "ipAddress": "192.168.11.21",
+        "TTL": "40",
+        "avlTTL": "30",
+        "minTTL": "10"
+      },
+      {
+        "nodeId": "3",
+        "name": "节点3",
+        "address": "上海市普陀区金沙江路 1518",
+        "ipAddress": "192.168.11.21",
+        "TTL": "25",
+        "avlTTL": "30",
+        "minTTL": "10"
+      },
+      {
+        "nodeId": "4",
+        "name": "节点4",
+        "address": "上海市普陀区金沙江路 1518",
+        "ipAddress": "192.168.11.21",
+        "TTL": "12",
+        "avlTTL": "30",
+        "minTTL": "10"
+      },
+      {
+        "nodeId": "5",
+        "name": "节点5",
+        "address": "上海市普陀区金沙江路 1518",
+        "ipAddress": "192.168.11.21",
+        "TTL": "50",
+        "avlTTL": "30",
+        "minTTL": "10"
+      }
+    ]}
+  }
