@@ -11,7 +11,7 @@
     "axios": "^1.5.1",
     "cnpm": "^9.2.0",
     "core-js": "^3.8.3",
-    "echarts": "^5.4.3",
+    "echarts": "^6.1.0",
     "element-ui": "^2.15.14",
     "node-sass": "^9.0.0",
     "true-case-path": "^2.2.1",
@@ -20,7 +20,7 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
+    "@babel/core": "^8.0.10",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
